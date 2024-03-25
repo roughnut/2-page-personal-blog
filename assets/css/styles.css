@@ -1,0 +1,48 @@
+:root {
+    --alice-blue: #ecf3f5ff;
+    --french-gray: #afbcc2ff;
+    --alice-blue-2: #eff6f8ff;
+    --charcoal: #193748ff;
+    --paynes-gray: #5a707cff;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--charcoal);
+}
+header {
+    height: 10%;
+}
+
+header h2 {
+    margin-bottom: 0;
+}
+
+.laptop-icon {
+    width: 12%;
+    max-width: 80px;
+    height: auto;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-ul {
+    margin: 0;
+}
+
+li a {
+    color: var(--charcoal);
+}
+
+li a:hover {
+    color: var(--french-gray);
+}
+
+@media screen and (min-width: 768px)  {
+    .blog-form {
+        width: 50% !important;
+    }
+}
