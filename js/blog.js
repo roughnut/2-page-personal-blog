@@ -14,7 +14,7 @@ let blogMain = document.getElementById("blog-container");
 // create a section element for each blog post and style the container
 function getBlogSection() {
     blogSection = document.createElement("section");
-    blogSection.className = "d-flex flex-column align-items-left border rounded px-3 m-3 pt-3";
+    blogSection.className = "d-flex flex-column align-items-left border rounded px-3 m-3 pt-3 w-100";
     return blogSection;
 }
 
