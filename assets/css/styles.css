@@ -41,8 +41,25 @@ li a:hover {
     color: var(--french-gray);
 }
 
+#moon-icon {
+    cursor: pointer;
+}
+
 @media screen and (min-width: 768px)  {
     .blog-form {
         width: 50% !important;
     }
+}
+
+.dark {
+    background-color: var(--charcoal);
+    color: var(--alice-blue);
+}
+
+.dark li a, .dark footer a {
+    color: var(--alice-blue);
+}
+
+.dark li a:hover {
+    color: var(--french-gray);
 }

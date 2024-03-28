@@ -2,7 +2,7 @@
 // get the form element
 let formElement = document.querySelector(".blog-form");
 //  get the username input element
-let usernameInput = document.getElementById("username");
+let authorInput = document.getElementById("author");
 // get the title input element
 let titleInput = document.getElementById("title");
 // get the content input element
@@ -15,7 +15,7 @@ formElement.addEventListener("submit", function(event) {
 
     //   create an object to store the form values
   const blogPost = {
-    username: usernameInput.value,
+    author: authorInput.value,
     title: titleInput.value,
     content: contentInput.value,
   };
