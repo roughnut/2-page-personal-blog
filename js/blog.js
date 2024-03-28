@@ -66,7 +66,7 @@ function publishBlogPosts(blogPosts) {
 }
 
 // check if blogs exist in local storage, remove the emptyList message, get the blog posts
-if (localStorage.length > 0) {
+if (localStorage.getItem("blogPosts") !== null) {
     document.getElementById("emptyList").remove();
     const blogPosts = getBlogPosts();
     publishBlogPosts(blogPosts);

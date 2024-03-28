@@ -8,11 +8,13 @@ Challenge is to build a 2 page blogging website where users can submit posts, ha
 
 [User Story](#user-story) and [Acceptance Criteria](#acceptance-criteria) are below.
 
-Also included below is my [Process & Learnings](#process--learnings) section.
+## Screenshot
+
+![app screenshot](./assets/images/app-screenshot.png)
 
 ## Usage
 
-[Github Pages URL]()
+[Github Pages URL](https://roughnut.github.io/2-page-personal-blog/ "link to deployed site")
 
 ## User Story
 
@@ -49,16 +51,3 @@ THEN I can see the title, the content, and the author of the post.
 WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio.
 ```
-
-## Process & Learnings
-
-1. I had a bit of a look ahead to next week and found the web API, Bootstrap, so learned how to apply that API to assist with the structure and styling of the site.  Bootstrap comes from a CDN and needs to go in the `<head>` element of the page and also needs a `<script>` included before the closing `</body>` tag.  
-
-```html
-<!-- in the header -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- before the closing body tag -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-```
-
-2.
