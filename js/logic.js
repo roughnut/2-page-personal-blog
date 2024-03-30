@@ -58,10 +58,11 @@ console.log(currentMode);
 // add event listener to mode toggle
 modeToggle.addEventListener("click", function() {
     // get the current mode
-    getCurrentMode();
+    currentMode = getCurrentMode();
         if (!currentMode || currentMode === "light") {
           addDarkMode();
     } else {
         removeDarkMode();
     }
+    currentMode = getCurrentMode();
 });
